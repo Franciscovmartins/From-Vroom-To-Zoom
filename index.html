@@ -16,6 +16,26 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 50%;
+          padding: 5px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+    </style>
+
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -51,7 +71,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Conversion</h2>
-                    <h3 class="section-subheading text-muted">Whats Needed?</h3>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
@@ -87,7 +107,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Step By Step</h2>
-                    <h3 class="section-subheading text-muted">Our Experience...</h3>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>  
                 <ul class="timeline">
                     <li>
@@ -256,37 +276,37 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Parveen Anand</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <h4>Diogo Matos</h4>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <h4>Francisco Freitas</h4>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <h4>Francisco Martins</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                            <h4>Gonçalo Gameiro</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                            <h4>Samuel Rocha</h4>
                         </div>
                     </div>
                 </div>
@@ -386,23 +406,15 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Reverse Engeneering</h2>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/detailed/cad.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Threads
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Illustration
-                                        </li>
-                                    </ul>
+                                    
+                                    <p>In this fase we dedicated ourselfs to explore and understand how the RC car works. We disassembled it and measured every part, so we could model it using a dedicated software.</p>
+                                    <p>This fase was crucial to know exactly the space we had to put the new components.</p>
+                                    
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close Tab
                                     </button>
                                 </div>
                             </div>
@@ -421,23 +433,14 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Research.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
+                                    <h2 class="text-uppercase">Research</h2>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/detailed/research.jpg" alt="..." />
+                                    
+                                    <p>In this fase we investigated and studied the diferent options of motors, batteries and speed controlers, so we could take the best aproach and the choose the components that would better fit the car. </p>
+                                    
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close Tab
                                     </button>
                                 </div>
                             </div>
@@ -456,23 +459,24 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/motor and esc.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Finish
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Identity
-                                        </li>
-                                    </ul>
+                                    <h2 class="text-uppercase">Motor and ESC</h2>
+                                    <div class="row">
+                                        <div class="column">
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/detailed/quicrun-4268sl.jpg" alt="..." style="width:100%"/>
+                                        </div>
+                                        <div class="column">
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/detailed/quicrun-esc-wp8bl150.jpg" alt="..." style="width:100%"/>
+                                        </div>
+                                    </div>
+                                    
+                                    <p>After researching we found that for the motor there are two types of motors, brushed and brushless. Brushless motors are more eficient, less noisy, lasts longer and are more precise, for those reasons we decided that a brushless motor was more suting for what we needed.</p>
+                                    <p>When choosing the motor, a very important value to look at is "Kv", wich is the ratio beetween the maximum RPM and the voltage of the battery. After the research madein the last fase, we decided that for our 1/8 RC car the ideal angular rotation would be around 50000 RPM and the battery would have 14.8 V, meaning our ideal "Kv" would be around 3350 [RPM/V].</p>
+                                    <p>For the ESC (eletronic speed controller) we decided to just choose one that the brand of the choosen motor recomended, to avoid any compatibility isues.</p>
+                                    <p>After searching for a combo for our 1/8 car, our final decision for the motor and ESC, came to be the "QuicRun 4268SL" for the motor and the "QuicRun ESC WP8BL150".</p>
+
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close Tab
                                     </button>
                                 </div>
                             </div>
@@ -491,23 +495,18 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/battery.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Lines
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Branding
-                                        </li>
-                                    </ul>
+                                    <h2 class="text-uppercase">Battery</h2>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/detailed/bateria-li-po-sigma-45c-5200-mah.jpg" alt="..." />
+                                    
+                                    <p>After the research made in the second fase, we found that for the battery we had two options, we could use LiPo or Ni-MH batteries. LiPo batteries have a bigger power density then Ni-MH batteries, wich means that for the same voltage we could have have a smaller battery, ideal for the small space we had to put the new components.</p>
+                                    <p>To be compatible with the motor we needed a four cell battery equivalent to 14.8 V.</p>
+                                    <p>A variable we also had to look at was the "C-Rating", wich is the discharge rate of the battery, the discover the minimum "C-Rating" we need to look at the current of the ESC we previously chose (150 A) and for the current in mAh that our battery will have. Because we decided we wanted a battery around 5000 mAh, the minimum C-Rating equals 30C.</p>
+                                    <p>Acording to our research the "C-Rating" should be around 1.5 times the value of the minimum "C-Rating", so we decided to look for a battery with a "C-Rating" equals to 45C. </p>
+                                    <p>After considering all the variables and the space we had in the car we decide to choose the "Sigma 45C 5200 mAh" as our battery.</p>
+
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close Tab
                                     </button>
                                 </div>
                             </div>
@@ -526,23 +525,16 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/controler.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Southwest
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Website Design
-                                        </li>
-                                    </ul>
+                                    <h2 class="text-uppercase">Controler</h2>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/detailed/comando.png" alt="..." />
+                                    
+                                    <p>When we where disassembling the car and testing the original controler we discovered that the receiver was broken so we decided to build our own controller.</p>
+                                    <p></p>
+                                    <p></p>
+
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close Tab
                                     </button>
                                 </div>
                             </div>
@@ -561,23 +553,15 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/assembly.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Photography
-                                        </li>
-                                    </ul>
+                                    <h2 class="text-uppercase">Assembly</h2>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/detailed/CAD new components.png" alt="..." />
+                                    
+                                    <p>This is the last fase of the conversion, when we finally get to put everything together.</p>
+                                    <p>The configuration we displayed the new components is has shown at the top.</p>
+                                    
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close Tab
                                     </button>
                                 </div>
                             </div>
